@@ -9,7 +9,7 @@ module.exports = templateData => {
  
   ## Table of Contents:
   ### <a name="desc" href="## Description">Description</a> 
-  ### <a name="questions" href" ## Questions?">Questions</a>
+  ### <a name="questions" href="## Questions">Questions</a>
   ## Description:
   ${templateData.description}
 
@@ -34,7 +34,7 @@ module.exports = templateData => {
   ## Contribution: 
   ${templateData.contributing}
 
-  ## Questions? 
+  ## Questions 
 
   ### Test: ${templateData.tests}
   ### Any additional questions please contact me at https://github.com/${templateData.questions}
