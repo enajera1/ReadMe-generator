@@ -1,5 +1,5 @@
 
-  #Awesome MIT project
+  # Awesome project
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description:
   It's awesome
@@ -11,7 +11,7 @@
   undefined
 
   ## Usage: 
-  oisedjgo
+  it's cool
 
   ## License: 
   MIT
