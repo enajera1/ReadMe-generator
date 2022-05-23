@@ -9,12 +9,11 @@ module.exports = templateData => {
  
   ## Table of Contents:
   ### <a name="desc" href="## Description">Description</a> 
-  ### <a name="questions" href="questions">Questions</a>
-  ### <a name="link" href="link"></a>
-  ### <a name="" href=""></a>
-  ### <a name="" href=""></a>
-  ### <a name="" href=""></a>
-  ### <a name="" href=""></a>
+  ### <a name="link" href="link">Link</a>
+  ### <a name="installation" href="## Installation">Installation</a>
+  ### <a name="usage" href="## Usage">Usage</a>
+  ### <a name="license" href="## License">License</a>
+  ### <a name="questions" href="## Questions">Questions</a>
   ## Description:
   ${templateData.description}
 

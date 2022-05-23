@@ -88,7 +88,7 @@ const promptProject = () => {
     {
       type:'input',
       name:'tests',
-      message:'tests? '
+      message:'Test?'
     },
     {
       type:'input',
