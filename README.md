@@ -1,17 +1,17 @@
 
-  # Awesome project
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # awesome              [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+ 
   ## Description:
-  It's awesome
-  
+  it's awesome
+
   ## Link: 
   undefined
 
   ## Installation: 
   undefined
-
+  
   ## Usage: 
-  it's cool
+  undefined
 
   ## License: 
   MIT

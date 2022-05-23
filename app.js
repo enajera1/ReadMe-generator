@@ -84,11 +84,11 @@ const promptProject = () => {
     //     }
     //   }
     // },
-    {
-      type:'input',
-      name:'usage',
-      message:'Enter the usage of your project'
-    },
+    // {
+    //   type:'input',
+    //   name:'usage',
+    //   message:'Enter the usage of your project'
+    // },
     {
       type:'list',
       name:'license',
