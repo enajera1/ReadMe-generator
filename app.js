@@ -32,19 +32,19 @@ const promptProject = () => {
         }
       }
     },
-    // {
-    //   type: 'input',
-    //   name: 'description',
-    //   message: 'Please enter a description of your project. (Required)',
-    //   validate: nameInput => {
-    //     if (nameInput) {
-    //       return true;
-    //     } else {
-    //       console.log('Please enter your project description!');
-    //       return false;
-    //     }
-    //   }
-    // },
+    {
+      type: 'input',
+      name: 'description',
+      message: 'Please enter a description of your project. (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your project description!');
+          return false;
+        }
+      }
+    },
     // {
     //   type: 'input',
     //   name: 'table-of-contents',
@@ -84,17 +84,17 @@ const promptProject = () => {
     //     }
     //   }
     // },
-    // {
-    //   type:'input',
-    //   name:'usage',
-    //   message:'Enter the usage of your project'
-    // },
-    // {
-    //   type:'list',
-    //   name:'license',
-    //   message:'Licensed by?',
-    //   choices: ['BSD', 'MIT', 'GPL', 'N/A']
-    // },
+    {
+      type:'input',
+      name:'usage',
+      message:'Enter the usage of your project'
+    },
+    {
+      type:'list',
+      name:'license',
+      message:'Licensed by?',
+      choices: ['BSD', 'MIT', 'GPL', 'N/A']
+    },
     // {
     //   type:'input',
     //   name:'contributing',
@@ -109,16 +109,16 @@ const promptProject = () => {
     //   name:'tests',
     //   message:'tests? '
     // },
-    {
-      type:'input',
-      name:'questions',
-      message:'Enter your GitHub account username for contact reference for any questions anyone may have.'
-    },
-    {
-      type: 'input',
-      name: 'email',
-      message: 'Please enter a contact email.'
-    }
+    // {
+    //   type:'input',
+    //   name:'questions',
+    //   message:'Enter your GitHub account username for contact reference for any questions anyone may have.'
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'email',
+    //   message: 'Please enter a contact email.'
+    // }
   ]);
 };
 
@@ -126,16 +126,6 @@ const promptProject = () => {
 
 // 9.3.5 IS WHERE I LEFT OFF
 
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
 promptProject()
   .then(projectData => {
     const pageReadMe = generatePage(projectData);
@@ -148,8 +138,3 @@ promptProject()
 // });
   });
 });
-
-
-//////////////
-
-
