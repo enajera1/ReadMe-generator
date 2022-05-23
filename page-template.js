@@ -8,7 +8,8 @@ module.exports = templateData => {
   # ${templateData.name}             ${mit}
  
   ## Table of Contents:
-  ### <a name="desc" href="/">Description</a> 
+  ### <a name="desc" href="## Description">Description</a> 
+  ### <a name="questions" href" ## Questions?">Questions</a>
   ## Description:
   ${templateData.description}
 
@@ -25,7 +26,7 @@ module.exports = templateData => {
   ${templateData.license}
   #### Copyright ${new Date().getFullYear()} ${templateData.name}
 
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files ${templateData.name}, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
   
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
   
@@ -40,7 +41,3 @@ module.exports = templateData => {
   `;
 };
 const mit = " [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ";
-const bsd = " [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) ";
-
-const copyrightMit = `
-`
